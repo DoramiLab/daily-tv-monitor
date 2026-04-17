@@ -1,0 +1,254 @@
+[
+  {
+    "source_type": "patent",
+    "title": "Scientific system and method for optimizing television advertising",
+    "url": "https://patents.google.com/patent/US12506553B2/en",
+    "source": "Google Patents",
+    "published_at": "2025-12-23",
+    "collected_at": "2026-04-17T14:11:00+09:00",
+    "language": "en",
+    "summary_ko": "CTV/OTT 환경에서 광고 성과를 최적화하기 위해 소셜미디어 성과 데이터를 활용한 초기 피드백 루프와, 고성과 크리에이티브를 TV 인벤토리로 선별·이식하는 ‘광고 선택 엔진’, 그리고 속성(프레임레이트·색상·브랜딩 타이밍 등) 기반 최적화를 수행하는 성능 엔진을 포함한 시스템을 특허로 제시했다.",
+    "reasoning": "연결 TV 광고는 수익화의 핵심 축이며, 이 특허는 ML/AI를 이용해 크리에이티브를 선별·학습·최적화하는 구조를 명시해 CTV 광고 플랫폼의 ‘AI 기반 운영/측정/최적화’ 방향성을 잘 보여준다.",
+    "relevance_scores": {
+      "ai_business": 4,
+      "tv_business": 4,
+      "market_effects": 4
+    },
+    "analysis_scores": {
+      "business_priority": 5,
+      "novelty": 3,
+      "execution_proximity": 3,
+      "confidence": 4
+    },
+    "taxonomy": {
+      "core_category": "advertising_monetization_ai",
+      "sub_category": "AI 기반 CTV 광고 크리에이티브 선별/최적화 엔진",
+      "ai_depth": "mid",
+      "value_chain": "platform",
+      "time_horizon": "near_term",
+      "taxonomy_version": "v1"
+    },
+    "metadata": {
+      "companies": [
+        "TvScientific"
+      ],
+      "technologies": [
+        "machine learning",
+        "neural networks",
+        "programmatic advertising"
+      ],
+      "products": [],
+      "markets": [
+        "Connected TV advertising",
+        "OTT advertising"
+      ],
+      "categories": [
+        "creative optimization",
+        "ad selection",
+        "measurement"
+      ],
+      "use_cases": [
+        "optimize CTV ad creatives using performance signals",
+        "transfer winning creatives from social to TV"
+      ],
+      "competitors": [
+        "The Trade Desk",
+        "Google",
+        "Amazon Ads"
+      ]
+    },
+    "embedding_summary": "Patent describes AI-driven selection and optimization of connected TV ads using a feedback loop from social media performance and creative attribute analysis.",
+    "content_type_specific": {
+      "patent_id": "US12506553B2",
+      "application_number": "US18/795,121",
+      "publication_number": "US12506553B2",
+      "assignees": [
+        "TvScientific Inc"
+      ],
+      "inventors": [
+        "Jason Fairchild",
+        "David Koye"
+      ],
+      "jurisdiction": "US",
+      "filing_date": "2024-08-05",
+      "publication_date": "2025-12-23",
+      "patent_status": "granted",
+      "abstract_ko": "본 특허는 연결 TV(CTV)/OTT 환경에서 광고 성과와 ROI를 높이기 위해, 소셜미디어 기반 초기 피드백 엔진으로 고성과 크리에이티브/아웃컴을 식별하고, 광고 선택 엔진이 이를 TV로 이동·적용하며, 성능 엔진이 프레임레이트·색상·브랜드 노출 타이밍 등 속성을 분석해 최적 조합을 도출하는 시스템/방법을 제안한다.",
+      "claims_focus": [
+        "소셜 성과 기반 CTV 광고 크리에이티브 선별",
+        "크리에이티브 속성 기반 최적화/측정",
+        "CTV/OTT에서의 광고 성과 엔진"
+      ],
+      "patent_family_hint": "US20240396654A1 (application publication)"
+    }
+  },
+  {
+    "source_type": "patent",
+    "title": "A display device and AI enhanced display method",
+    "url": "https://patents.google.com/patent/CN114296841B/en",
+    "source": "Google Patents",
+    "published_at": "2025-05-02",
+    "collected_at": "2026-04-17T14:11:00+09:00",
+    "language": "zh",
+    "summary_ko": "AI 화질 개선 알고리즘을 실행한 ‘향상 화면’과 함께, 인식 결과(예: 인물 인식 등)를 바탕으로 안내 항목을 표시하는 AI 전시(비교) 윈도우를 UI 상단에 띄워 사용자가 AI 개선 효과를 직관적으로 확인하도록 하는 디스플레이/스마트TV용 방법을 특허로 제시했다.",
+    "reasoning": "TV 화질 AI는 ‘좋아졌다’는 체감이 중요하지만 설명/가시화가 어렵다. 이 특허는 AI 화질 개선 결과를 UI로 비교·설명하는 UX를 포함해, 디바이스 내 AI 기능의 ‘설명가능 UX’가 제품 차별화 요소가 됨을 시사한다.",
+    "relevance_scores": {
+      "ai_business": 3,
+      "tv_business": 4,
+      "market_effects": 3
+    },
+    "analysis_scores": {
+      "business_priority": 3,
+      "novelty": 3,
+      "execution_proximity": 3,
+      "confidence": 4
+    },
+    "taxonomy": {
+      "core_category": "ux_interaction_ai",
+      "sub_category": "AI 화질 개선 효과를 UI로 비교/가시화",
+      "ai_depth": "mid",
+      "value_chain": "device",
+      "time_horizon": "near_term",
+      "taxonomy_version": "v1"
+    },
+    "metadata": {
+      "companies": [
+        "Hisense"
+      ],
+      "technologies": [
+        "AI image enhancement",
+        "neural network"
+      ],
+      "products": [
+        "smart TV"
+      ],
+      "markets": [
+        "Smart TVs",
+        "Display devices"
+      ],
+      "categories": [
+        "explainable UI",
+        "picture quality enhancement"
+      ],
+      "use_cases": [
+        "show AI enhancement effect to users",
+        "AI-driven picture adjustment"
+      ],
+      "competitors": [
+        "Samsung",
+        "LG",
+        "Sony",
+        "TCL"
+      ]
+    },
+    "embedding_summary": "Patent covers a display device method that runs AI picture enhancement and overlays an AI window to visualize recognition results and compare enhancement effects for better UX.",
+    "content_type_specific": {
+      "patent_id": "CN114296841B",
+      "application_number": "CN202110637457.3A",
+      "publication_number": "CN114296841B",
+      "assignees": [
+        "Hisense Visual Technology Co Ltd"
+      ],
+      "inventors": [
+        "郑晴晴"
+      ],
+      "jurisdiction": "CN",
+      "filing_date": "2021-06-08",
+      "publication_date": "2025-05-02",
+      "patent_status": "granted",
+      "abstract_ko": "사용자 지시에 따라 현재 표시 중인 화면에 AI 화질 개선 알고리즘을 적용해 향상 화면을 생성하고, 알고리즘의 인식 결과 데이터를 기반으로 안내 항목을 그려 ‘AI 전시 창’을 오버레이로 표시함으로써 AI 개선 효과를 비교/가시화하는 디스플레이 장치 및 방법을 제안한다.",
+      "claims_focus": [
+        "AI 화질 개선 적용",
+        "인식 결과 기반 UI 오버레이",
+        "개선 전/후 비교 표시"
+      ],
+      "patent_family_hint": "CN114296841A (application publication)"
+    }
+  },
+  {
+    "source_type": "patent",
+    "title": "Display device and operating method thereof",
+    "url": "https://patents.google.com/patent/US20250053792A1/en",
+    "source": "Google Patents",
+    "published_at": "2025-02-13",
+    "collected_at": "2026-04-17T14:11:00+09:00",
+    "language": "en",
+    "summary_ko": "디스플레이 장치(스마트TV 포함)가 CNN 기반 슈퍼해상도 등 신경망 연산을 수행할 때 가중치/특징의 비트폭을 동적으로 줄였다가 복원하는 ‘시프트 기반 경량화’로 연산 하드웨어 요구와 전력 소모를 낮추는 방법을 제안한다.",
+    "reasoning": "TV의 AI 업스케일링/화질 개선은 NPU·메모리·전력 제약이 큰 실시간 파이프라인 문제다. 비트폭 축소/복원 같은 경량화 기법은 TV SoC에서의 온디바이스 AI 실행 비용을 줄여 제품 경쟁력(성능/전력/발열)에 직접 연결된다.",
+    "relevance_scores": {
+      "ai_business": 4,
+      "tv_business": 4,
+      "market_effects": 3
+    },
+    "analysis_scores": {
+      "business_priority": 4,
+      "novelty": 3,
+      "execution_proximity": 3,
+      "confidence": 4
+    },
+    "taxonomy": {
+      "core_category": "device_system_ai",
+      "sub_category": "TV/디스플레이의 슈퍼해상도 CNN 경량화(비트폭/시프트)",
+      "ai_depth": "mid",
+      "value_chain": "device",
+      "time_horizon": "near_term",
+      "taxonomy_version": "v1"
+    },
+    "metadata": {
+      "companies": [
+        "Samsung Electronics"
+      ],
+      "technologies": [
+        "super-resolution",
+        "convolutional neural network",
+        "bit-width reduction",
+        "quantization"
+      ],
+      "products": [
+        "smart TV"
+      ],
+      "markets": [
+        "TV SoC",
+        "display devices"
+      ],
+      "categories": [
+        "on-device AI",
+        "video upscaling"
+      ],
+      "use_cases": [
+        "real-time TV upscaling",
+        "reduce power for neural inference"
+      ],
+      "competitors": [
+        "MediaTek",
+        "Qualcomm",
+        "Amlogic"
+      ]
+    },
+    "embedding_summary": "Samsung patent describes dynamic bit-width reduction (shift operations) for CNN-based super-resolution on display devices to lower hardware and power costs for on-device AI.",
+    "content_type_specific": {
+      "patent_id": "US20250053792A1",
+      "application_number": "US18/799,608",
+      "publication_number": "US20250053792A1",
+      "assignees": [
+        "Samsung Electronics Co Ltd"
+      ],
+      "inventors": [
+        "Sunbum HAN",
+        "Haengkang Kim",
+        "Daesung Lim"
+      ],
+      "jurisdiction": "US",
+      "filing_date": "2024-08-09",
+      "publication_date": "2025-02-13",
+      "patent_status": "published",
+      "abstract_ko": "저해상도 영상을 고해상도로 복원하는 슈퍼해상도 CNN 등 신경망 연산을 수행하는 디스플레이 장치에서, 입력 특징과 가중치의 비트폭을 동적으로 시프트 연산으로 축소해 곱셈기 입력 비트를 줄이고, 연산 후 비트폭을 복원해 품질을 유지하면서 하드웨어 면적/메모리/전력을 절감하는 방법을 제안한다.",
+      "claims_focus": [
+        "CNN 기반 슈퍼해상도 처리",
+        "동적 시프트 기반 비트폭 축소/복원",
+        "전력/하드웨어 절감"
+      ],
+      "patent_family_hint": "Priority: KR1020230105148A (KR20250023867A)"
+    }
+  }
+]

@@ -1,0 +1,285 @@
+[
+  {
+    "source_type": "article",
+    "title": "Walmart is updating its 4K streaming box with Gemini and Matter support",
+    "url": "https://www.theverge.com/tech/912334/walmart-onn-4k-pro-streamer-google-tv-gemini-matter-thread-smart-home",
+    "source": "The Verge",
+    "published_at": "2026-04-15T13:49:00Z",
+    "collected_at": "2026-04-17T14:11:00+09:00",
+    "language": "en",
+    "summary_ko": "월마트가 저가형 Google TV 기반 스트리밍 박스(Onn 4K Pro)를 새 버전으로 업데이트하면서 Google Gemini를 탑재해 음성 기반 검색·추천·제어를 강화하고, Matter-over-Thread 지원으로 TV 주변 스마트홈 허브 역할을 확대했다.",
+    "reasoning": "TV에 연결되는 스트리밍 박스에서 Gemini 기반 음성/대화형 검색과 추천이 핵심 업데이트로 제시돼, 거실(CTV) 플랫폼의 AI UX·콘텐츠 탐색 경쟁(구글/로쿠/파이어TV 등)과 직접 연결된다.",
+    "relevance_scores": {
+      "ai_business": 4,
+      "tv_business": 4,
+      "market_effects": 3
+    },
+    "analysis_scores": {
+      "business_priority": 4,
+      "novelty": 3,
+      "execution_proximity": 5,
+      "confidence": 4
+    },
+    "taxonomy": {
+      "core_category": "ux_interaction_ai",
+      "sub_category": "Gemini 음성 제어/검색/추천이 추가된 Google TV 스트리머",
+      "ai_depth": "mid",
+      "value_chain": "device",
+      "time_horizon": "near_term",
+      "taxonomy_version": "v1"
+    },
+    "metadata": {
+      "companies": [
+        "Walmart",
+        "Google"
+      ],
+      "technologies": [
+        "Google Gemini",
+        "Google TV",
+        "Matter",
+        "Thread"
+      ],
+      "products": [
+        "Onn 4K Pro"
+      ],
+      "markets": [
+        "Connected TV",
+        "Streaming devices",
+        "Smart home"
+      ],
+      "categories": [
+        "voice control",
+        "content discovery",
+        "recommendation"
+      ],
+      "use_cases": [
+        "hands-free TV control",
+        "content search and recommendations",
+        "smart home control from TV"
+      ],
+      "competitors": [
+        "Amazon Fire TV",
+        "Roku",
+        "Apple TV",
+        "Google TV Streamer"
+      ]
+    },
+    "embedding_summary": "Walmart refreshes the Onn 4K Pro Google TV streamer with Gemini voice assistance and Matter-over-Thread, improving hands-free search, recommendations, and smart-home control.",
+    "content_type_specific": {
+      "publisher": "The Verge",
+      "author": "Andrew Liszewski",
+      "region": "US",
+      "content_kind": "news"
+    }
+  },
+  {
+    "source_type": "article",
+    "title": "I reviewed the LG G6 for 3 weeks, and it's a fantastic OLED TV that's the new best option for brighter rooms",
+    "url": "https://www.techradar.com/televisions/lg-g6-oled-tv-review",
+    "source": "TechRadar",
+    "published_at": "2026-04-12",
+    "collected_at": "2026-04-17T14:11:00+09:00",
+    "language": "en",
+    "summary_ko": "LG 2026 플래그십 OLED TV(G6) 리뷰에서 Alpha 11 AI Gen 3 프로세서 기반 화질·업스케일링·AI 사운드(대사 선명도 등)와 webOS 26 개인화/AI 기능이 핵심 차별점으로 언급됐다.",
+    "reasoning": "TV 제품 경쟁에서 AI 프로세서(화질/사운드/업스케일링)와 OS 레벨 개인화가 프리미엄 포지셔닝의 핵심 메시지로 반복 등장하며, 디바이스 내 AI 성능/UX가 구매결정 요인이 되는 흐름을 보여준다.",
+    "relevance_scores": {
+      "ai_business": 3,
+      "tv_business": 5,
+      "market_effects": 3
+    },
+    "analysis_scores": {
+      "business_priority": 3,
+      "novelty": 3,
+      "execution_proximity": 5,
+      "confidence": 4
+    },
+    "taxonomy": {
+      "core_category": "picture_sound_ai",
+      "sub_category": "TV AI 프로세서 기반 업스케일링/사운드 및 OS 개인화",
+      "ai_depth": "mid",
+      "value_chain": "device",
+      "time_horizon": "near_term",
+      "taxonomy_version": "v1"
+    },
+    "metadata": {
+      "companies": [
+        "LG"
+      ],
+      "technologies": [
+        "Alpha 11 AI Gen 3",
+        "webOS 26",
+        "AI Sound Pro"
+      ],
+      "products": [
+        "LG G6 OLED TV"
+      ],
+      "markets": [
+        "OLED TV",
+        "Premium TV"
+      ],
+      "categories": [
+        "AI upscaling",
+        "AI audio",
+        "personalization"
+      ],
+      "use_cases": [
+        "SDR/HDR upscaling",
+        "dialogue clarity enhancement",
+        "home screen personalization"
+      ],
+      "competitors": [
+        "Samsung",
+        "Sony",
+        "TCL",
+        "Hisense"
+      ]
+    },
+    "embedding_summary": "TechRadar reviews LG's 2026 G6 OLED, emphasizing AI-driven picture processing, upscaling, AI sound modes, and webOS personalization as differentiators.",
+    "content_type_specific": {
+      "publisher": "TechRadar",
+      "author": "James Davidson",
+      "region": "UK",
+      "content_kind": "review"
+    }
+  },
+  {
+    "source_type": "article",
+    "title": "3 new Gemini features are coming to Google TV",
+    "url": "https://blog.google/products-and-platforms/platforms/google-tv/new-gemini-features-march-2026/",
+    "source": "Google Blog",
+    "published_at": "2026-03-24",
+    "collected_at": "2026-04-17T14:11:00+09:00",
+    "language": "en",
+    "summary_ko": "구글이 Google TV에 Gemini 기능을 추가 업데이트하며 시각적으로 풍부한 답변(스포츠·정보), ‘Deep dives’(내레이션 기반 주제 탐구), 스포츠 브리프 등 대화형/멀티모달 TV 경험을 본격 확대했다.",
+    "reasoning": "거실 대형 스크린에서의 LLM/생성형 기반 UX를 공식 로드맵으로 제시하며, TV 플랫폼 사업(광고·추천·검색·설정 최적화)에서 AI가 핵심 기능 레이어로 올라왔음을 보여준다.",
+    "relevance_scores": {
+      "ai_business": 5,
+      "tv_business": 4,
+      "market_effects": 4
+    },
+    "analysis_scores": {
+      "business_priority": 5,
+      "novelty": 4,
+      "execution_proximity": 4,
+      "confidence": 5
+    },
+    "taxonomy": {
+      "core_category": "ux_interaction_ai",
+      "sub_category": "Google TV의 Gemini 시각 답변/딥다이브/스포츠 브리프",
+      "ai_depth": "high",
+      "value_chain": "platform",
+      "time_horizon": "near_term",
+      "taxonomy_version": "v1"
+    },
+    "metadata": {
+      "companies": [
+        "Google"
+      ],
+      "technologies": [
+        "Gemini",
+        "Google TV",
+        "generative AI"
+      ],
+      "products": [
+        "Google TV"
+      ],
+      "markets": [
+        "Smart TV platforms"
+      ],
+      "categories": [
+        "multimodal assistant",
+        "sports briefing",
+        "topic exploration"
+      ],
+      "use_cases": [
+        "visual Q&A on TV",
+        "family-friendly topic deep dives",
+        "sports updates on TV"
+      ],
+      "competitors": [
+        "Amazon Fire TV",
+        "Roku",
+        "Samsung Tizen",
+        "LG webOS"
+      ]
+    },
+    "embedding_summary": "Google announces new Gemini capabilities for Google TV, adding richer visual answers, narrated deep dives, and sports briefs for large-screen interaction.",
+    "content_type_specific": {
+      "publisher": "Google",
+      "author": "Hanwook Kim; Ruturaj Patil",
+      "region": "US",
+      "content_kind": "blog"
+    }
+  },
+  {
+    "source_type": "article",
+    "title": "Google previews new Gemini features for TV at CES 2026",
+    "url": "https://techcrunch.com/2026/01/05/google-previews-new-gemini-features-for-tv-at-ces-2026/",
+    "source": "TechCrunch",
+    "published_at": "2026-01-05T06:00:00-08:00",
+    "collected_at": "2026-04-17T14:11:00+09:00",
+    "language": "en",
+    "summary_ko": "CES 2026에서 구글은 Google TV용 Gemini 기능을 시연하며 대화형 추천/검색, 줄거리 요약·리캡, 사진·영상 탐색 및 재창작, 자연어 기반 설정 최적화 등 ‘TV에서의 생성형 AI 경험’을 강조했고, 일부 TCL 기기부터 순차 확대 계획을 밝혔다.",
+    "reasoning": "TV 플랫폼에서 LLM 기반 에이전트형 UX(탐색·요약·추천·설정 조정)가 제품 핵심 기능으로 자리잡는 흐름을 보여주며, OEM 파트너(TCL)와의 확산 전략까지 포함해 비즈니스/제품 관점의 신호가 강하다.",
+    "relevance_scores": {
+      "ai_business": 5,
+      "tv_business": 4,
+      "market_effects": 4
+    },
+    "analysis_scores": {
+      "business_priority": 5,
+      "novelty": 4,
+      "execution_proximity": 3,
+      "confidence": 4
+    },
+    "taxonomy": {
+      "core_category": "ux_interaction_ai",
+      "sub_category": "TV용 Gemini(대화형 추천/리캡/설정 최적화) CES 프리뷰",
+      "ai_depth": "high",
+      "value_chain": "platform",
+      "time_horizon": "near_term",
+      "taxonomy_version": "v1"
+    },
+    "metadata": {
+      "companies": [
+        "Google",
+        "TCL"
+      ],
+      "technologies": [
+        "Gemini",
+        "Google TV",
+        "generative AI",
+        "natural language"
+      ],
+      "products": [
+        "Google TV"
+      ],
+      "markets": [
+        "Smart TVs",
+        "TV platforms"
+      ],
+      "categories": [
+        "conversational search",
+        "recommendation",
+        "settings optimization"
+      ],
+      "use_cases": [
+        "find something to watch via conversation",
+        "show recap / plot summary",
+        "optimize picture and sound via natural language"
+      ],
+      "competitors": [
+        "Amazon Fire TV",
+        "Roku",
+        "Apple TV"
+      ]
+    },
+    "embedding_summary": "TechCrunch reports Google previewing Gemini for Google TV at CES 2026, enabling conversational discovery, recaps, photo tools, and natural-language settings adjustments on TVs.",
+    "content_type_specific": {
+      "publisher": "TechCrunch",
+      "author": "Sarah Perez",
+      "region": "US",
+      "content_kind": "news"
+    }
+  }
+]
