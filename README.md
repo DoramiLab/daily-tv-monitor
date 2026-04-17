@@ -52,8 +52,8 @@ When a prior report exists, use it to avoid duplicate coverage.
 
 For each run, create or update:
 
-- `reports/YYYY-MM-DD.md`
-- `reports/latest.md`
+- `new_features/YYYY-MM-DD.md`
+- `new_features/latest.md`
 
 Each report should include:
 
