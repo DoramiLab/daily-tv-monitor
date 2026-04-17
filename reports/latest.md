@@ -1,8 +1,8 @@
-# Latest TV SW/HW Monitor Report
+# 최신 TV SW/HW 모니터링 리포트
 
-The most recent run was completed on 2026-04-17.
+가장 최근 실행은 2026-04-17에 완료되었습니다.
 
-- Report: `reports/2026-04-17.md`
-- Main finding: Samsung published a new official April 16, 2026 update from its European Tech Seminar covering broader AI TV feature rollout, new TV software features, and refreshed 2026 display lineup details.
+- 리포트: `reports/2026-04-17.md`
+- 핵심 발견: 삼성은 2026년 4월 16일 유럽 테크 세미나 관련 공식 업데이트를 통해 TV 라인업 전반의 AI 기능 확대, 신규 TV 소프트웨어 기능, 2026 디스플레이 라인업 세부사항을 공개했습니다.
 
-See the dated report for sources, exclusions, and verification notes.
+상세 출처, 제외 기준, 검증 메모는 날짜별 리포트를 참고하세요.
