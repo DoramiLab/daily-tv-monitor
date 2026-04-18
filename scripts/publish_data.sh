@@ -54,8 +54,4 @@ fi
 
 ${git_common[@]} commit -m "${msg}" -q
 
-${git_common[@]} fetch origin "${branch}" -q
-${git_common[@]} rebase "origin/${branch}" -q || true
-
 ${git_common[@]} push origin "${branch}"
-
