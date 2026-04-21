@@ -1,10 +1,10 @@
 # 최신 TV SW/HW 모니터링 리포트
 
-가장 최근 실행은 2026-04-20에 완료되었습니다.
+가장 최근 실행은 2026-04-21에 완료되었습니다.
 
-- 리포트: `new_features/2026-04-20.md`
-- 핵심 발견: 2026-04-19 07:00 KST부터 2026-04-20 07:00 KST까지 주요 TV 제조사·플랫폼 업체의 신규 제품 발표나 의미 있는 신규 기능 공개는 확인되지 않았습니다(0건).
-- 집계 제외: 삼성의 2026-04-19 Edison Awards 게시물은 TV Vision AI를 언급했지만 수상 소식과 기존 기능 재소개 성격이어서 신규 발표로 집계하지 않았습니다.
-- 확인 범위: Samsung, LG, Sony BRAVIA, TCL, Hisense, Panasonic, Philips/TP Vision, Sharp, Xiaomi, Amazon Fire TV, Google TV/Android TV, Roku, Apple TV와 주요 글로벌/지역 매체를 교차 점검했습니다.
+- 리포트: `new_features/2026-04-21.md`
+- 검색 구간: 2026-04-20 07:14 KST ~ 2026-04-21 06:28 KST
+- 핵심 발견: 지난 실행 이후 기준으로 주요 글로벌 TV SW/HW 업체의 공식 신제품 발표 또는 의미 있는 신규 기능 공개는 확인하지 못했습니다(0건).
+- 중복 제외: Samsung 2026 AI TV 유럽 테크 세미나(2026-04-16), Amazon Fire TV Stick HD/Ember Artline(2026-04-15), LG QNED evo Mini LED TV 라인업(2026-04-03)은 모두 이번 검색 구간 밖이거나 이전 리포트에서 이미 다룬 항목으로 재집계하지 않았습니다.
 
 상세 출처, 제외 기준, 검증 메모는 날짜별 리포트를 참고하세요.
