@@ -1,10 +1,11 @@
 # 최신 TV SW/HW 모니터링 리포트
 
-가장 최근 실행은 2026-04-21에 완료되었습니다.
+가장 최근 실행은 2026-04-22에 완료되었습니다.
 
-- 리포트: `new_features/2026-04-21.md`
-- 검색 구간: 2026-04-20 07:14 KST ~ 2026-04-21 06:28 KST
-- 핵심 발견: 지난 실행 이후 기준으로 주요 글로벌 TV SW/HW 업체의 공식 신제품 발표 또는 의미 있는 신규 기능 공개는 확인하지 못했습니다(0건).
-- 중복 제외: Samsung 2026 AI TV 유럽 테크 세미나(2026-04-16), Amazon Fire TV Stick HD/Ember Artline(2026-04-15), LG QNED evo Mini LED TV 라인업(2026-04-03)은 모두 이번 검색 구간 밖이거나 이전 리포트에서 이미 다룬 항목으로 재집계하지 않았습니다.
+- 리포트: `new_features/2026-04-22.md`
+- 핵심 발견: 지난 24시간 기준으로 신규 또는 의미 있는 상용 출시/가격 확정 2건을 확인했습니다.
+  - LG Electronics USA: 2026년형 LG OLED evo W6 Wireless Wallpaper TV 미국 가격/예약판매/출시 일정 공개(공식 확인 + 매체 보도)
+  - TVS REGZA: 2026년형 REGZA 라인업 및 RGB Mini LED ZX 시리즈 발표(공식 확인 + 복수 일본 매체 보도)
+- 신규 발표로 집계하지 않은 주요 후속 보도: Samsung Micro RGB TV 가격 보도, Amazon Fire TV/Vega OS 관련 보도, Xiaomi TV S Mini LED 판매/체험 기사
 
 상세 출처, 제외 기준, 검증 메모는 날짜별 리포트를 참고하세요.
