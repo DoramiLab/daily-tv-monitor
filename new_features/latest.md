@@ -1,4 +1,4 @@
-# 일간 TV SW/HW 모니터링 리포트
+# 일간 TV 모니터링 리포트
 
 - 실행일: 2026-04-23
 - 실행 시각: 2026-04-23 05:10 KST
@@ -26,6 +26,9 @@
   - 더 프리스타일+는 '3D 오토 키스톤', '방해물 회피', '스크린 핏'을 제공.
   - TV AI 플랫폼 '비전 AI 컴패니언'은 TV 시청 중 AI 기반 실시간 답변과 정보를 제공.
 - 판단: 더 프리스타일+는 거실 대형 화면/프로젝터 제품군에 해당해 신규 항목으로 포함. 마이크로 RGB와 Vision AI Companion은 기존 발표가 있어 국내 공개 확대/전시로 제한 해석.
+- 출처:
+  - Samsung Newsroom Korea, 2026-04-22: https://news.samsung.com/kr/%EC%82%BC%EC%84%B1%EC%A0%84%EC%9E%90-2026-%EC%9B%94%EB%93%9Cit%EC%87%BC%EC%84%9C-%EC%B0%A8%EC%84%B8%EB%8C%80-%ED%98%81%EC%8B%A0-%EA%B8%B0%EC%88%A0-%EC%84%A0%EB%B3%B4%EC%97%AC
+  - 연합뉴스, 2026-04-22: https://www.yna.co.kr/amp/view/AKR20260422028400003
 
 ### 2. LG전자: 2026 월드IT쇼에서 OLED Theater, 무선 월페이퍼 OLED, AI 홈/디스플레이 기술 전시
 
@@ -38,6 +41,9 @@
   - 전작 대비 AI 성능이 5.6배 향상된 3세대 알파11 AI 프로세서 업스케일링 시연.
   - AI 홈 허브 '씽큐 온'과 IoT 기기 기반 귀가모드/조명/공조 제어 시나리오 전시.
 - 판단: 공식 TV/디스플레이 경험 공개이지만, 대부분 이전 CES/라인업 발표와 연결되어 "신제품 출시"가 아닌 "국내 전시/체험 공개"로 분류.
+- 출처:
+  - LG그룹 보도자료, 2026-04-22: https://www.lg.co.kr/media/release/30076
+  - 연합뉴스, 2026-04-22: https://www.yna.co.kr/amp/view/AKR20260422028400003
 
 ## 간접 TV 인접 항목: Google/Amazon 서비스·스마트홈·커머스
 
@@ -51,34 +57,19 @@
   - Alexa로 NBA 일정과 결과를 확인 가능.
   - 대응 Fire TV 시리즈와 Echo Dot 2대를 조합한 Alexa 홈시어터 구성을 공식 보도자료가 언급.
 - 판단: 직접 TV 발표는 아니지만 거실 음성 인터페이스, 스포츠 미디어 경험, Fire TV 홈시어터 연동성이 있어 간접 항목으로 포함.
-
-## 출처 목록
-
-- Samsung Newsroom Korea, 2026-04-22  
-  https://news.samsung.com/kr/%EC%82%BC%EC%84%B1%EC%A0%84%EC%9E%90-2026-%EC%9B%94%EB%93%9Cit%EC%87%BC%EC%84%9C-%EC%B0%A8%EC%84%B8%EB%8C%80-%ED%98%81%EC%8B%A0-%EA%B8%B0%EC%88%A0-%EC%84%A0%EB%B3%B4%EC%97%AC
-- 연합뉴스, 2026-04-22  
-  https://www.yna.co.kr/amp/view/AKR20260422028400003
-- LG그룹 보도자료, 2026-04-22  
-  https://www.lg.co.kr/media/release/30076
-- Amazon Japan Press Center, 2026-04-22  
-  https://press.aboutamazon.com/jp/2026/4/amazon-launches-the-echo-dot-nba-officially-licensed-edition
-- News.com.au, Samsung Australia 2026 AI TV range 보도  
-  https://www.news.com.au/technology/home-entertainment/tv/samsungs-new-ai-tvs-promise-to-end-distractions-by-answering-questions-on-screen/news-story/0ce987ee8350efe71b970898403da75b
-- Samsung Australia Vision AI TV 제품/기능 페이지  
-  https://www.samsung.com/au/tvs/vision-ai-tv/
-- TechCrunch, Amazon Fire TV Stick HD 및 Ember Artline 프리오더 보도  
-  https://techcrunch.com/2026/04/15/amazon-unveils-a-slimmer-fire-tv-stick-hd-opens-ember-artline-tvs-for-preorder/
+- 출처:
+  - Amazon Japan Press Center, 2026-04-22: https://press.aboutamazon.com/jp/2026/4/amazon-launches-the-echo-dot-nba-officially-licensed-edition
 
 ## 의미 있는 업데이트가 없었던 확인 대상
 
-- Samsung 글로벌/미국/호주/한국 뉴스룸: 한국 월드IT쇼 항목은 포함. 호주 2026 TV 라인업 보도는 공식 보도자료 날짜를 확인하지 못해 신규 집계 제외.
+- Samsung 글로벌/미국/호주/한국 뉴스룸: 한국 월드IT쇼 항목은 포함. 호주 2026 TV 라인업 보도(News.com.au: https://www.news.com.au/technology/home-entertainment/tv/samsungs-new-ai-tvs-promise-to-end-distractions-by-answering-questions-on-screen/news-story/0ce987ee8350efe71b970898403da75b)와 Samsung Australia 기능 페이지(https://www.samsung.com/au/tvs/vision-ai-tv/)는 확인했으나, 공식 보도자료 날짜를 확인하지 못해 신규 집계 제외.
 - LG 글로벌/미국/한국 공식 채널: 한국 월드IT쇼 항목은 포함. 기존 OLED W/2026 OLED/QNED evo 발표와 중복되는 내용은 제외.
 - Sony BRAVIA: 검색 구간 내 신제품/플랫폼 기능 발표 확인 못함.
 - TCL: 최근 2026 TV 라인업 확장 보도는 검색 구간 밖으로 신규 제외.
 - Hisense: 검색 구간 내 신규 TV 발표 확인 못함.
 - Panasonic, Philips/TP Vision, Sharp: 검색 구간 내 공식 신제품/의미 있는 TV 기능 발표 확인 못함.
 - Xiaomi/Redmi TV: 4월 초 발표 및 4월 21일 판매 개시 보도는 중복 제외.
-- Amazon Fire TV: Ember Artline 배송 개시와 Fire TV Stick HD/Vega OS 후속 보도는 기존 발표 항목이라 신규 발표로 집계하지 않음.
+- Amazon Fire TV: Ember Artline 배송 개시와 Fire TV Stick HD/Vega OS 후속 보도는 기존 발표 항목이라 신규 발표로 집계하지 않음. 참고 보도: TechCrunch(https://techcrunch.com/2026/04/15/amazon-unveils-a-slimmer-fire-tv-stick-hd-opens-ember-artline-tvs-for-preorder/).
 - Google TV/Android TV: 검색 구간 내 공식 Google TV/Android TV 신제품 또는 TV OS 기능 발표 확인 못함.
 - Google/Amazon 인접 서비스: Google Cloud Next, Amazon One Medical, Pet Days, Anthropic/AWS 협력은 TV 인접성이 낮아 제외.
 - Roku/Apple TV: Roku 보도는 검색 구간 밖. Apple TV 콘텐츠 공개/편성 보도는 TV 하드웨어/OS/플랫폼 기능이 아니므로 제외.
@@ -87,7 +78,7 @@
 ## 불확실성 및 검증 메모
 
 - 검색은 1시간 제한을 고려해 공식 채널과 주요 매체를 우선했습니다. 일부 지역 뉴스룸, YouTube 영상, 중국어 커뮤니티/상거래 페이지, 특허 데이터베이스는 완전한 시간순 검증이 어렵습니다.
-- Samsung Australia 2026 AI TV range 보도는 검색 시점에 "today"로 표시됐고 Samsung Australia 제품 페이지로 기능 존재는 확인했지만, 별도 공식 보도자료 날짜를 확인하지 못해 신규 발표로 집계하지 않았습니다.
+- Samsung Australia 2026 AI TV range 보도(https://www.news.com.au/technology/home-entertainment/tv/samsungs-new-ai-tvs-promise-to-end-distractions-by-answering-questions-on-screen/news-story/0ce987ee8350efe71b970898403da75b)는 검색 시점에 "today"로 표시됐고 Samsung Australia 제품 페이지(https://www.samsung.com/au/tvs/vision-ai-tv/)로 기능 존재는 확인했지만, 별도 공식 보도자료 날짜를 확인하지 못해 신규 발표로 집계하지 않았습니다.
 - Amazon Ember Artline은 2026-04-22 배송 시작일이 검색 구간에 들어오지만, 발표일이 2026-04-15이고 이전 보고서에서 중복 제외 대상으로 기록되어 신규 발표로 처리하지 않았습니다.
 
 ## Git 게시 상태
