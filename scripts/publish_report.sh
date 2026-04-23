@@ -2,8 +2,9 @@
 set -euo pipefail
 
 REMOTE_URL_DEFAULT="https://github.com/DoramiLab/daily-tv-monitor.git"
-GIT_DIR_DEFAULT="/tmp/tv-ai-daily-git"
-WORK_DIR_DEFAULT="/tmp/tv-ai-daily-worktree"
+INSTANCE_DEFAULT="$(date +%s)-$$"
+GIT_DIR_DEFAULT="/tmp/tv-ai-daily-git-${TV_AI_DAILY_INSTANCE:-$INSTANCE_DEFAULT}"
+WORK_DIR_DEFAULT="/tmp/tv-ai-daily-worktree-${TV_AI_DAILY_INSTANCE:-$INSTANCE_DEFAULT}"
 BRANCH_DEFAULT="main"
 
 remote_url="${REMOTE_URL:-$REMOTE_URL_DEFAULT}"
@@ -72,6 +73,7 @@ run_with_retry() {
 
 mkdir -p "${git_dir}"
 mkdir -p "${work_dir}"
+trap 'rm -rf "${git_dir}" "${work_dir}"' EXIT
 
 if [[ ! -f "${git_dir}/HEAD" ]]; then
   "${git_bare[@]}" init -q
