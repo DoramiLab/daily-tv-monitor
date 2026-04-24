@@ -32,8 +32,8 @@
   - 특히 Vision AI Companion의 적용 범위를 "4K 이상 TV 전반"으로 넓힌 점은 단순 재언급보다 의미 있는 기능 배포 확대라고 판단했습니다.
 - 인사이트:
   - 의미: AI TV 경쟁은 더 이상 플래그십 데모가 아니라, 중상위 볼륨 존까지 AI 경험을 얼마나 넓게 배포하느냐의 경쟁으로 이동하고 있습니다. 삼성 스스로도 VAC를 4K 이상 대다수 라인업으로 확장한 것은 AI 기능을 판매 포인트가 아니라 기본 기대치로 전환하려는 신호입니다.
-  - 우리가 참고할 점: 특정 LLM/어시스턴트 하나를 밀기보다 Bixby, Perplexity, Copilot을 조합해 "시청 중 문맥형 답변"을 강조한 점이 중요합니다. 사용자는 모델 브랜드보다 TV 시청 흐름을 끊지 않는 응답, 추천, 설명 경험을 체감하기 때문에, orchestration과 UX 설계가 핵심 경쟁력입니다.
-  - 우리에게 제안할 점: 삼성 TV AI 전략에서는 `어떤 모델을 붙일지`보다 `어떤 시청 순간에 어떤 AI를 호출할지`를 먼저 정의하는 편이 낫습니다. 예를 들어 스포츠, 쇼핑 가능 콘텐츠, 키즈 교육, 라이브 정보성 콘텐츠처럼 사용 맥락이 분명한 시청 장면별 AI 진입점과 KPI를 별도 관리하는 체계를 제안합니다.
+  - 참고할 점: 특정 LLM/어시스턴트 하나를 밀기보다 Bixby, Perplexity, Copilot을 조합해 "시청 중 문맥형 답변"을 강조한 점이 중요합니다. 사용자는 모델 브랜드보다 TV 시청 흐름을 끊지 않는 응답, 추천, 설명 경험을 체감하기 때문에, orchestration과 UX 설계가 핵심 경쟁력입니다.
+  - 제안: 삼성 TV AI 전략에서는 `어떤 모델을 붙일지`보다 `어떤 시청 순간에 어떤 AI를 호출할지`를 먼저 정의하는 편이 낫습니다. 예를 들어 스포츠, 쇼핑 가능 콘텐츠, 키즈 교육, 라이브 정보성 콘텐츠처럼 사용 맥락이 분명한 시청 장면별 AI 진입점과 KPI를 별도 관리하는 체계를 제안합니다.
 - 출처:
   - Samsung Australia via PR Newswire, 2026-04-23: https://www.prnewswire.com/apac/news-releases/a-new-reality-comes-to-light-samsung-australia-unveils-full-2026-ai-tv-line-up-302750925.html
   - News.com.au, 2026-04-23: https://www.news.com.au/technology/home-entertainment/tv/samsungs-new-ai-tvs-promise-to-end-distractions-by-answering-questions-on-screen/news-story/0ce987ee8350efe71b970898403da75b
@@ -55,8 +55,8 @@
   - 따라서 "첫 공개"가 아니라 "공식 글로벌 출시 확정"이라는 의미 있는 상태 변화로 집계했습니다.
 - 인사이트:
   - 의미: 하이센스는 AI 자체보다 화질 파이프라인과 패널/백라이트 구조 혁신을 전면에 세우고 있습니다. 이는 시장에서 AI 경쟁이 심해질수록 일부 업체는 오히려 "체감 가능한 기본 화질 성능"으로 차별화하려 한다는 신호로 볼 수 있습니다.
-  - 우리가 참고할 점: 삼성 TV AI 전략도 결국 하드웨어 우위와 결합되지 않으면 설득력이 약해집니다. RGB MiniLED, 색역, 반사 저감, 고주사율, 오디오 튜닝처럼 눈에 보이는 스펙이 강하면 AI 기능이 부가 가치로 받아들여지고, 반대로 하드웨어 메시지가 약하면 AI가 마케팅 문구로 취급될 가능성이 큽니다.
-  - 우리에게 제안할 점: 삼성 내부 전략에서는 AI 기능 로드맵과 별도로 `AI가 더 잘 보이게 만드는 하드웨어/화질 포인트`를 한 세트로 묶어 관리하는 것이 좋습니다. 예를 들어 업스케일링, 장면 이해, 스포츠/게임 장면 최적화 같은 AI 가치가 실제로 드러나는 패널/밝기/반사 저감 조건을 정의해 상품 메시지를 통합할 필요가 있습니다.
+  - 참고할 점: 삼성 TV AI 전략도 결국 하드웨어 우위와 결합되지 않으면 설득력이 약해집니다. RGB MiniLED, 색역, 반사 저감, 고주사율, 오디오 튜닝처럼 눈에 보이는 스펙이 강하면 AI 기능이 부가 가치로 받아들여지고, 반대로 하드웨어 메시지가 약하면 AI가 마케팅 문구로 취급될 가능성이 큽니다.
+  - 제안: 삼성 내부 전략에서는 AI 기능 로드맵과 별도로 `AI가 더 잘 보이게 만드는 하드웨어/화질 포인트`를 한 세트로 묶어 관리하는 것이 좋습니다. 예를 들어 업스케일링, 장면 이해, 스포츠/게임 장면 최적화 같은 AI 가치가 실제로 드러나는 패널/밝기/반사 저감 조건을 정의해 상품 메시지를 통합할 필요가 있습니다.
 - 출처:
   - Hisense via PR Newswire, 2026-04-23: https://www.prnewswire.com/news-releases/hisense-unveils-ur9-series-defining-the-next-era-of-true-rgb-miniled-display-302751522.html
   - Hisense via PR Newswire, 2026-03-26: https://www.prnewswire.com/news-releases/hisense-opens-ur9-rgb-miniled-tv-pre-orders-with-a-complimentary-55-inch-canvastv-for-early-orders-302726299.html
@@ -80,8 +80,8 @@
   - 다만 Amazon이 Fire TV를 포함한 멀티서피스 사용과 거실형 어시스턴트 흐름을 직접 설명했기 때문에, TV 인접 서비스 확장으로 포함했습니다.
 - 인사이트:
   - 의미: AI 어시스턴트 경쟁은 단일 디바이스 기능이 아니라 가정 내 여러 화면과 스피커를 잇는 연속 경험 경쟁으로 빠르게 바뀌고 있습니다. Amazon은 TV를 독립 단말로 보지 않고, 음성-모바일-TV-브라우저가 이어지는 하나의 세션으로 설계하고 있습니다.
-  - 우리가 참고할 점: 삼성도 TV 단독 AI보다 SmartThings, 모바일, 사운드바, 가전과 연결된 가정 내 멀티디바이스 AI 경험을 더 강하게 설계할 여지가 큽니다. 특히 TV는 검색 시작점이 아니라 "가장 큰 실행 화면"으로 정의하는 편이 더 경쟁력 있을 수 있습니다.
-  - 우리에게 제안할 점: 삼성 TV AI 전략에서는 `TV 안의 AI`와 `집 전체 AI에서 TV가 맡는 역할`을 분리해 정의하는 것이 좋습니다. 예를 들어 모바일/버즈/가전에서 시작한 요청을 TV로 이어받아 콘텐츠 탐색, 구매 검토, 가정 제어 대시보드, 장면 기반 추천으로 확장하는 cross-device handoff 시나리오를 우선 과제로 제안합니다.
+  - 참고할 점: 삼성도 TV 단독 AI보다 SmartThings, 모바일, 사운드바, 가전과 연결된 가정 내 멀티디바이스 AI 경험을 더 강하게 설계할 여지가 큽니다. 특히 TV는 검색 시작점이 아니라 "가장 큰 실행 화면"으로 정의하는 편이 더 경쟁력 있을 수 있습니다.
+  - 제안: 삼성 TV AI 전략에서는 `TV 안의 AI`와 `집 전체 AI에서 TV가 맡는 역할`을 분리해 정의하는 것이 좋습니다. 예를 들어 모바일/버즈/가전에서 시작한 요청을 TV로 이어받아 콘텐츠 탐색, 구매 검토, 가정 제어 대시보드, 장면 기반 추천으로 확장하는 cross-device handoff 시나리오를 우선 과제로 제안합니다.
 - 출처:
   - About Amazon, 2026-04-23: https://www.aboutamazon.com/news/devices/alexa-plus-international-launch/
   - About Amazon, 2026-04-23: https://www.aboutamazon.com/news/company-news/amazon-news-today-top-stories-company/
