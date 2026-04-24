@@ -67,3 +67,13 @@ Each report should include:
 
 Commit and push the daily report changes to the configured GitHub remote when available.
 If the repository is not initialized or no authenticated remote is configured, document the blocker in the report instead of failing silently.
+
+## Codex Cloud
+
+This repository is now prepared for Codex cloud tasks.
+
+- Repo-level instructions live in [`AGENTS.md`](/Users/luna/Documents/Codex/2026-04-17-24-top-tv-sw-hw-7/AGENTS.md).
+- A ready-to-run cloud task prompt lives in [`docs/codex_cloud_daily_tv_monitor.md`](/Users/luna/Documents/Codex/2026-04-17-24-top-tv-sw-hw-7/docs/codex_cloud_daily_tv_monitor.md).
+- The publish helper remains [`scripts/publish_report.sh`](/Users/luna/Documents/Codex/2026-04-17-24-top-tv-sw-hw-7/scripts/publish_report.sh).
+
+If you run this repo from Codex on the web with a GitHub-connected environment, Codex should pick up `AGENTS.md` automatically and can use the prompt file as the task brief.
