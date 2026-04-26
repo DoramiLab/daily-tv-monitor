@@ -94,10 +94,17 @@ configure_github_auth() {
   github_id="${GITHUB_ID:-${GITHUB_USER:-${GITHUB_USERNAME:-}}}"
   github_pat="${GITHUB_PAT:-${GITHUB_TOKEN:-}}"
 
-  if [[ -z "${github_id}" || -z "${github_pat}" ]]; then
-    echo "GitHub auth file exists but GITHUB_ID and GITHUB_PAT are not both set: ${auth_file}" >&2
+  if [[ -z "${github_pat}" ]]; then
+    echo "GitHub auth file exists but no token was found in ${auth_file}" >&2
     return 0
   fi
+
+  if [[ -z "${github_id}" ]]; then
+    github_id="x-access-token"
+  fi
+
+  export GITHUB_ID="${github_id}"
+  export GITHUB_PAT="${github_pat}"
 
   askpass_script="$(mktemp "/tmp/tv-ai-daily-askpass.XXXXXX")"
   chmod 700 "${askpass_script}"
@@ -111,13 +118,14 @@ esac
 EOF
 
   export GIT_ASKPASS="${askpass_script}"
-  export GIT_TERMINAL_PROMPT=0
 }
 
 mkdir -p "${git_dir}"
 mkdir -p "${work_dir}"
 trap cleanup EXIT
 
+export GIT_TERMINAL_PROMPT=0
+export GCM_INTERACTIVE=Never
 configure_github_auth
 
 if [[ ! -f "${git_dir}/HEAD" ]]; then
