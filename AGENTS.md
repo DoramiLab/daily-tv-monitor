@@ -2,7 +2,7 @@
 
 ## Mission
 
-Produce a daily Korean report about meaningful TV software/hardware announcements from the last 24 hours, with strategic analysis for Samsung TV competitiveness.
+Produce a daily Korean report about meaningful TV software/hardware announcements, with strategic analysis for Samsung TV competitiveness.
 
 ## Working Rules
 
@@ -51,12 +51,16 @@ Use the title `일간 TV 모니터링 리포트`.
 ## Suggested Run Flow
 
 1. Read the newest files under `new_features/` to avoid duplicate coverage.
-2. Investigate the last 24 hours of direct TV announcements and relevant indirect Google/Amazon items.
-3. Write the report in Korean with explicit source attribution per item.
-4. If publishing is requested, run:
+2. Identify the **latest report execution time** from the newest report and set search window from that timestamp to now.
+   - Do **not** use a fixed 24-hour window.
+   - This is to backfill possible misses when a prior run had partial search failures.
+3. Investigate direct TV announcements and relevant indirect Google/Amazon items within that dynamic window.
+4. Write the report in Korean with explicit source attribution per item.
+5. If there are no qualifying items, write `해당 없음` only under `신규 발표 확인 사항`.
+6. If publishing is requested, run:
 
 ```bash
 scripts/publish_report.sh "Daily TV monitor: YYYY-MM-DD"
 ```
 
-5. If git/network operations fail, record the failure in the report.
+7. If git/network operations fail, record the failure in the report.

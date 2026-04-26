@@ -1,36 +1,35 @@
 # 일간 TV 모니터링 리포트
 
 - 실행일: 2026-04-26
-- 실행 시각: 2026-04-26 07:48 KST
+- 실행 시각: 2026-04-26 09:21 KST
 - 실행 방식: 수동 실행(Codex)
-- 검색 구간: 2026-04-26 00:00 KST ~ 2026-04-26 07:48 KST
+- 검색 구간: 2026-04-26 07:48 KST(직전 latest 리포트 실행 시각 기준) ~ 2026-04-26 09:21 KST
 
 ## 요약
 
 이번 검색 구간에서는 **직접 TV/디스플레이 관련 신규 발표 0건**, **간접 TV 인접(Google/Amazon) 신규 발표 0건**을 확인했습니다.
 
-- 삼성/LG/Sony/TCL/Hisense/Panasonic/Philips·TP Vision/Sharp/Xiaomi/Roku/Apple TV/Google TV/Fire TV 우선 범위를 공식 채널 중심으로 재점검했습니다.
-- 확인된 신규 콘텐츠 대부분이 기존 제품 공지의 재노출·리뷰·프로모션 성격이어서, 신규 발표 집계 기준에는 포함하지 않았습니다.
+- 직전 리포트 실행 시각(07:48 KST) 이후 시점만 대상으로 재검색해, 고정 24시간 윈도우에서 발생할 수 있는 누락 가능성을 보완했습니다.
+- 공식 채널(기업 뉴스룸/제품 블로그) 우선으로 Samsung, LG, Sony, Google TV/Android TV, Amazon Fire TV의 신규 게시를 점검했습니다.
 
 ## 신규 발표 확인 사항
 
-- 해당 검색 구간(2026-04-26 00:00 KST ~ 2026-04-26 07:48 KST) 내, 집계 기준(공식 발표 또는 신뢰도 높은 매체의 의미 있는 신규 사실 확인)을 충족하는 **신규 직접 TV/디스플레이 발표 없음**.
-- 해당 검색 구간 내, 포함 기준(거실 미디어·스마트홈·커머스와 Fire TV/Google TV 연계성이 명시된 신규 발표)을 충족하는 **신규 간접 TV 인접 Google/Amazon 항목 없음**.
+해당 없음
 
 ## 의미 있는 업데이트가 없었던 확인 대상
 
-- **Samsung / LG / Sony / Roku**: 공식 뉴스룸·IR·보도자료 페이지 기준 본 검색 구간 내 신규 TV 하드웨어/플랫폼 발표를 확인하지 못했습니다.
+- **Samsung Newsroom(글로벌/미국 TV 관련 태그)**: 본 검색 구간 내 신규 TV 하드웨어/플랫폼 발표를 확인하지 못했습니다.
   - 출처: https://news.samsung.com/us/tag/television-tv
+  - 출처: https://news.samsung.com/global/tag/tv
+- **LG Newsroom / Sony 공식 공지**: 본 검색 구간 내 신규 TV 제품/플랫폼 발표를 확인하지 못했습니다.
   - 출처: https://www.lg.com/us/press-release
   - 출처: https://www.sony.com/en/SonyInfo/IR/news/2026.html
-  - 출처: https://www.roku.com/investor
-- **Google TV / Android TV**: 공식 Google 블로그 기준 본 검색 구간 내 신규 Google TV 소비자 출시 발표를 확인하지 못했습니다.
+- **Google TV / Amazon Fire TV**: 직전 리포트 이후 신규 소비자 출시/플랫폼 기능 발표를 확인하지 못했습니다.
   - 출처: https://blog.google/products-and-platforms/platforms/google-tv/
-- **Amazon Fire TV / Alexa**: About Amazon Devices 기준 본 검색 구간 내 신규 Fire TV 발표를 확인하지 못했습니다.
   - 출처: https://www.aboutamazon.com/news/devices
 
 ## 불확실성 및 검증 메모
 
-- 본 회차는 공식 채널(기업 뉴스룸/개발자·IR 공지) 우선으로 점검했습니다.
-- 지역 언어권 로컬 발표는 시차에 따라 다음 회차에 반영될 수 있습니다.
-- 재게시 기사(기존 발표 재인용)는 신규 발표로 집계하지 않았습니다.
+- 본 회차는 공식 채널 우선 점검 기준을 적용했습니다.
+- 지역 언어권(일본/유럽/중남미) 로컬 채널의 시차 반영 공지는 다음 회차에서 추가 확인될 수 있습니다.
+- 재인용/재게시 콘텐츠는 신규 발표 집계에서 제외했습니다.
