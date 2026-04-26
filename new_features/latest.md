@@ -1,13 +1,15 @@
 # 일간 TV 모니터링 리포트
 
-- 기준 시각: 2026-04-26 10:20 KST
-- 검색 구간: 2026-04-25 10:20 KST ~ 2026-04-26 10:20 KST
+- 기준 시각: 2026-04-26 10:34 KST
+- 검색 구간: 2026-04-26 10:20 KST ~ 2026-04-26 10:34 KST
 
 ## 한국어 Executive Summary
 
-지난 24시간 동안 주요 글로벌 TV 업체와 플랫폼 사업자에서 **새로운 직접 TV 제품 발표나 의미 있는 플랫폼 기능 공개는 확인되지 않았습니다.** Google/Amazon의 거실 인접 서비스도 이번 구간에서는 새로 포함할 항목이 없었습니다.
+직전 오늘자 리포트 이후 추가 검색한 결과, **주요 글로벌 TV 업체의 직접 TV/디스플레이 신규 발표와 Google/Amazon의 간접 TV 인접 신규 서비스는 확인되지 않았습니다.** 이번 회차는 사실상 오전 10:20 KST 리포트 이후의 증분 점검 성격이었고, 공식 채널과 주요 매체에서 새로 올라온 고신뢰 발표는 없었습니다.
 
-이번 구간의 핵심은 '무언가 새로 나왔다'가 아니라, **기존 4월 중순 발표가 판매·유통·리뷰 단계로 넘어가고 있다는 점**입니다. 삼성 입장에서는 경쟁사의 단기 발표 대응보다, 이미 공개된 AI TV 전략이 실제 사용자 경험에서 얼마나 빠르고 일관되게 구현되는지가 더 중요합니다. 특히 추천 탐색 UX, 멀티 디바이스 핸드오프, 스마트홈 제어의 자연어 완성도, 아트/앰비언트 경험의 체류 시간 확대가 계속 비교 포인트로 남아 있습니다.
+삼성 관점에서 이번 회차의 시사점은 경쟁사 대응보다 **이미 공개된 AI TV 전략의 실행 완성도**에 있습니다. 단기적으로는 새 발표를 쫓기보다 추천 탐색 UX, 대화형 검색 품질, 스마트홈 제어의 자연어 맥락 유지, 모바일-거실 화면 간 핸드오프 같은 사용성 격차를 줄이는 편이 더 중요합니다.
+
+또한 이번 실행에서는 저장소 동기화가 DNS 오류로 실패했습니다. 따라서 리포트는 **로컬 작업본 + 웹 검증 결과**를 기준으로 갱신했습니다.
 
 ## 새 발표
 
@@ -17,25 +19,34 @@
 ## 간접 TV 인접 Google/Amazon 서비스
 
 - 포함 항목 없음
-- 제외 참고: Amazon의 [Alexa+ Spain](https://www.aboutamazon.com/news/devices/alexa-plus-international-launch/), [Alexa+ food ordering](https://www.aboutamazon.com/news/devices/alexa-plus-grubhub-uber-eats-food-delivery), [Fire TV Stick HD](https://www.aboutamazon.com/news/devices/fire-tv-stick-hd-slimmest-streaming-device), [Ember Artline](https://www.aboutamazon.com/news/devices/amazon-ember-artline-lifestyle-tv-free-art) 관련 글은 모두 이번 24시간 이전 공개 건으로 판단했습니다.
 
 ## 의미 있는 업데이트가 없었던 확인 대상
 
-- **Samsung TV / Vision AI**: 미국 TV 태그 기준 최신 직접 TV 발표는 4월 2일자에 머물렀고 이번 구간 내 신규 발표는 없었습니다.
+- **Samsung TV / Vision AI**: 공식 확인 기준으로 Samsung US TV 태그의 최신 직접 TV 보도자료는 여전히 2026년 4월 2일 OLED/The Frame 라인업 공지이며, 이번 증분 구간 내 신규 항목은 확인되지 않았습니다.
   - 출처: https://news.samsung.com/us/tag/television-tv/
-- **LG TV / webOS 26**: 4월 21일 W6 Wallpaper TV 가격 발표 이후 지난 24시간 내 직접 TV 신기능 발표는 없었습니다.
-  - 출처: https://www.lg.com/us/press-release/Final%20LG%20Wallpaper%20TV%20Pricing%20Availability%20Press%20Release%20FINAL.pdf
-  - 출처: https://www.lg.com/global/newsroom/news/media-entertainment-solution/lg-electronics-launches-2026-qned-evo-mini-led-tv-lineup-headlined-by-ultra-large-115-inch-model/
-- **Sony BRAVIA / Roku**: Sony 공식 IR과 Roku Newsroom 모두 이번 구간 내 TV 제품·플랫폼 신규 공지가 없었습니다.
-  - 출처: https://www.sony.com/en/SonyInfo/IR/news/2026.html
-  - 출처: https://newsroom.roku.com/
-- **Google TV / Amazon Fire TV**: Google TV 공식 블로그와 Amazon Fire TV/Alexa 태그 기준 이번 구간 내 새 소비자 발표는 없었습니다.
+  - 출처: https://news.samsung.com/global/tag/tv
+- **Google TV / Gemini for Home**: Google TV 공식 블로그 인덱스와 최근 Google 기기 블로그 검색 결과를 재확인했지만, 이번 구간 내 신규 TV 발표는 없었습니다. 최근 거실 인접 업데이트로 볼 수 있는 Gemini for Home의 Continued Conversation도 이번 검색 구간보다 앞선 공지입니다.
   - 출처: https://blog.google/products-and-platforms/platforms/google-tv/
+  - 출처: https://blog.google/products-and-platforms/devices/how-to-use-gemini-continued-conversation/
+- **Amazon Fire TV / Alexa**: Fire TV 태그 상단 노출 항목은 여전히 Ember Artline, Fire TV Stick HD, Fire TV UI 개편 등 기존 4월 공지 중심이었고, 이번 구간 내 추가 발표는 없었습니다.
   - 출처: https://www.aboutamazon.com/news/tag/fire-tv
   - 출처: https://www.aboutamazon.com/news/tag/alexa
+  - 출처: https://www.aboutamazon.com/news/devices/fire-tv-stick-hd-slimmest-streaming-device/
+- **Roku / Sony / LG**: Roku Newsroom의 최신 보도자료는 4월 16일, Samsung/LG/Sony와 비교되는 주요 TV 경쟁 축에서도 이번 증분 구간 내 별도 신규 공지는 확인되지 않았습니다. LG와 Sony는 직전 리포트 이후 추가 변동이 없었습니다.
+  - 출처: https://newsroom.roku.com/
+  - 출처: https://www.sony.com/en/SonyInfo/IR/news/2026.html
+  - 출처: https://www.lg.com/us/press-release/lg-announces-pricing-and-availability-for-2026-flagship-tv-models
+
+## Git/네트워크 이슈
+
+- 저장소 동기화 명령 `git fetch origin main && git reset --hard origin/main` 실행이 실패했습니다.
+- 오류: `fatal: unable to access 'https://github.com/DoramiLab/daily-tv-monitor.git/': Could not resolve host: github.com`
+- 이 오류 때문에 이번 회차는 원격 최신 상태를 당겨오지 못했고, 로컬 워크스페이스 기준으로만 리포트를 갱신했습니다.
+- 게시 명령 `scripts/publish_report.sh "Daily TV monitor: 2026-04-26"`도 내부 `git fetch` 5회 재시도 후 동일한 DNS 오류로 실패했습니다.
+- 게시 최종 오류: `git fetch attempt 5 failed: fatal: unable to access 'https://github.com/DoramiLab/daily-tv-monitor.git/': Could not resolve host: github.com`
 
 ## 불확실성 및 검증 공백
 
-- 지역 현지어 공지의 시차 반영 가능성은 남아 있습니다.
-- 일부 공식 인덱스 페이지는 게시일 노출이 제한적이라 기사 본문/검색 인덱스 날짜를 병행 확인했습니다.
-- 기존 발표 재인용 기사와 할인/판매 기사 증가는 있었지만 신규 발표로는 집계하지 않았습니다.
+- 이번 검색 구간은 직전 리포트 직후 14분으로 매우 짧아, 실질적으로는 "추가 발표 유무 확인"에 가깝습니다.
+- 지역 뉴스룸의 현지어 공지는 시차 때문에 다음 회차에서 뒤늦게 포착될 수 있습니다.
+- 원격 동기화와 게시 모두 실패해, 이번 결과는 로컬 파일 갱신까지만 완료됐습니다.
