@@ -45,8 +45,9 @@ Add other globally relevant TV SW/HW companies when they appear material.
 
 ## Time window
 
-Each run should focus on the 24 hours since the previous completed search.
-When a prior report exists, use it to avoid duplicate coverage.
+Each run should focus on the period from the **last report execution timestamp** to the current run time.
+When a prior report exists, use that execution timestamp as the next run's start time and use it to avoid duplicate coverage.
+Do not use a fixed 24-hour window.
 
 ## Output
 
@@ -62,6 +63,8 @@ Each report should include:
 3. Source list with links
 4. Items checked with no meaningful update
 5. Notes on uncertainty or verification gaps
+
+If no new announcement qualifies, keep report format but set `신규 발표 확인 사항` to exactly `해당 없음`.
 
 ## Git
 
