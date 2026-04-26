@@ -1,13 +1,13 @@
 # 일간 TV 모니터링 리포트
 
-- 기준 시각: 2026-04-26 10:34 KST
-- 검색 구간: 2026-04-26 10:20 KST ~ 2026-04-26 10:34 KST
+- 기준 시각: 2026-04-26 11:02 KST
+- 검색 구간: 2026-04-26 10:34 KST ~ 2026-04-26 11:02 KST
 
 ## 한국어 Executive Summary
 
-직전 오늘자 리포트 이후 추가 검색한 결과, **주요 글로벌 TV 업체의 직접 TV/디스플레이 신규 발표와 Google/Amazon의 간접 TV 인접 신규 서비스는 확인되지 않았습니다.** 이번 회차는 사실상 오전 10:20 KST 리포트 이후의 증분 점검 성격이었고, 공식 채널과 주요 매체에서 새로 올라온 고신뢰 발표는 없었습니다.
+직전 오늘자 리포트 이후 추가 검색한 결과, **주요 글로벌 TV 업체의 직접 TV/디스플레이 신규 발표와 Google/Amazon의 간접 TV 인접 신규 서비스는 확인되지 않았습니다.** 이번 회차는 오전 10:34 KST 리포트 이후 증분 점검 성격이었고, 공식 채널과 주요 매체에서 새로 올라온 고신뢰 발표는 없었습니다.
 
-삼성 관점에서 이번 회차의 시사점은 경쟁사 대응보다 **이미 공개된 AI TV 전략의 실행 완성도**에 있습니다. 단기적으로는 새 발표를 쫓기보다 추천 탐색 UX, 대화형 검색 품질, 스마트홈 제어의 자연어 맥락 유지, 모바일-거실 화면 간 핸드오프 같은 사용성 격차를 줄이는 편이 더 중요합니다.
+삼성 관점에서 이번 회차의 시사점은 경쟁사 대응보다 **이미 공개된 AI TV 전략의 실행 완성도와 서비스 전개 속도**에 있습니다. 단기적으로는 새 발표를 쫓기보다 추천 탐색 UX, 대화형 검색 품질, 스마트홈 제어의 자연어 맥락 유지, 모바일-거실 화면 간 핸드오프, TV 내 상거래/액션 유도 흐름을 더 촘촘히 다듬는 편이 중요합니다.
 
 또한 이번 실행에서는 저장소 동기화가 DNS 오류로 실패했습니다. 따라서 리포트는 **로컬 작업본 + 웹 검증 결과**를 기준으로 갱신했습니다.
 
@@ -32,10 +32,13 @@
   - 출처: https://www.aboutamazon.com/news/tag/fire-tv
   - 출처: https://www.aboutamazon.com/news/tag/alexa
   - 출처: https://www.aboutamazon.com/news/devices/fire-tv-stick-hd-slimmest-streaming-device/
-- **Roku / Sony / LG**: Roku Newsroom의 최신 보도자료는 4월 16일, Samsung/LG/Sony와 비교되는 주요 TV 경쟁 축에서도 이번 증분 구간 내 별도 신규 공지는 확인되지 않았습니다. LG와 Sony는 직전 리포트 이후 추가 변동이 없었습니다.
+- **LG / Sony / TCL / Roku**: LG Global Newsroom의 TV 관련 최신 항목은 4월 24일 무선 TV 인증, Sony IR/보도자료 페이지의 최신 TV 관련 대형 항목은 3월 31일 TCL 협업 공지, TCL 북미 최신 TV 관련 공지는 4월 20일 RGB Mini LED 소개, Roku Newsroom 최신 보도자료는 4월 16일로 확인됐으며 이번 증분 구간 내 추가 발표는 없었습니다.
+  - 출처: https://www.lg.com/global/newsroom/
+  - 출처: https://www.lg.com/us/press-release/lg-oled-evo-w6-wallpaper-tv-pricing-availability
   - 출처: https://newsroom.roku.com/
   - 출처: https://www.sony.com/en/SonyInfo/IR/news/2026.html
-  - 출처: https://www.lg.com/us/press-release/lg-announces-pricing-and-availability-for-2026-flagship-tv-models
+  - 출처: https://www.sony.com/en/SonyInfo/News/Press/
+  - 출처: https://us.tcl.com/pages/about-us
 
 ## Git/네트워크 이슈
 
@@ -47,6 +50,6 @@
 
 ## 불확실성 및 검증 공백
 
-- 이번 검색 구간은 직전 리포트 직후 14분으로 매우 짧아, 실질적으로는 "추가 발표 유무 확인"에 가깝습니다.
+- 이번 검색 구간은 직전 리포트 직후 약 28분으로 짧아, 실질적으로는 "추가 발표 유무 확인"에 가깝습니다.
 - 지역 뉴스룸의 현지어 공지는 시차 때문에 다음 회차에서 뒤늦게 포착될 수 있습니다.
 - 원격 동기화와 게시 모두 실패해, 이번 결과는 로컬 파일 갱신까지만 완료됐습니다.

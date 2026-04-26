@@ -18,9 +18,18 @@ if [[ -z "${msg}" ]]; then
 fi
 
 repo_root="$(pwd)"
+auth_file="${GITHUB_AUTH_FILE:-${repo_root}/.github-auth.local}"
+askpass_script=""
 
 git_bare=(git "--git-dir=${git_dir}")
 git_common=(git "--git-dir=${git_dir}" "--work-tree=${work_dir}")
+
+cleanup() {
+  rm -rf "${git_dir}" "${work_dir}"
+  if [[ -n "${askpass_script}" ]]; then
+    rm -f "${askpass_script}"
+  fi
+}
 
 is_transient_network_error() {
   local output
@@ -71,9 +80,45 @@ run_with_retry() {
   return "$status"
 }
 
+configure_github_auth() {
+  local github_id=""
+  local github_pat=""
+
+  if [[ ! -f "${auth_file}" ]]; then
+    return 0
+  fi
+
+  # shellcheck disable=SC1090
+  source "${auth_file}"
+
+  github_id="${GITHUB_ID:-${GITHUB_USER:-${GITHUB_USERNAME:-}}}"
+  github_pat="${GITHUB_PAT:-${GITHUB_TOKEN:-}}"
+
+  if [[ -z "${github_id}" || -z "${github_pat}" ]]; then
+    echo "GitHub auth file exists but GITHUB_ID and GITHUB_PAT are not both set: ${auth_file}" >&2
+    return 0
+  fi
+
+  askpass_script="$(mktemp "/tmp/tv-ai-daily-askpass.XXXXXX")"
+  chmod 700 "${askpass_script}"
+  cat > "${askpass_script}" <<'EOF'
+#!/usr/bin/env bash
+case "$1" in
+  *Username*) printf '%s\n' "${GITHUB_ID:-${GITHUB_USER:-${GITHUB_USERNAME:-}}}" ;;
+  *Password*) printf '%s\n' "${GITHUB_PAT:-${GITHUB_TOKEN:-}}" ;;
+  *) printf '\n' ;;
+esac
+EOF
+
+  export GIT_ASKPASS="${askpass_script}"
+  export GIT_TERMINAL_PROMPT=0
+}
+
 mkdir -p "${git_dir}"
 mkdir -p "${work_dir}"
-trap 'rm -rf "${git_dir}" "${work_dir}"' EXIT
+trap cleanup EXIT
+
+configure_github_auth
 
 if [[ ! -f "${git_dir}/HEAD" ]]; then
   "${git_bare[@]}" init -q
