@@ -1,31 +1,12 @@
 # Daily TV SW/HW Monitor
 
-This workspace is for a recurring agent that runs every day at 07:00 Asia/Seoul.
+This repository is set up for a local daily Codex run that generates report markdown files and then publishes the updated report files to GitHub.
 
 ## Mission
 
-Investigate whether major global TV software and hardware companies announced:
+Investigate meaningful TV software and hardware announcements with strategic analysis for Samsung TV competitiveness.
 
-- new TV products
-- new display hardware
-- new TV platform features
-- new OS, UX, AI, gaming, smart-home, ad-tech, or content features tied to TV products
-
-The agent should search broadly across:
-
-- official company newsrooms and blogs
-- YouTube channels and launch videos
-- major news coverage
-- developer blogs
-- patents and patent databases
-- research papers and preprints
-- conference materials
-- investor relations pages
-- social and official brand channels when relevant
-
-## Suggested company set
-
-Prioritize coverage across the biggest TV-related vendors and platform players, including:
+Prioritized scope:
 
 - Samsung
 - LG
@@ -41,42 +22,41 @@ Prioritize coverage across the biggest TV-related vendors and platform players, 
 - Roku
 - Apple TV
 
-Add other globally relevant TV SW/HW companies when they appear material.
-
-## Time window
-
-Each run should focus on the period from the **last report execution timestamp** to the current run time.
-When a prior report exists, use that execution timestamp as the next run's start time and use it to avoid duplicate coverage.
-Do not use a fixed 24-hour window.
+Also include indirect but relevant Google/Amazon launches when they could extend to TV, living-room commerce/media, or smart-home control.
 
 ## Output
 
-For each run, create or update:
+Each run updates:
 
 - `new_features/YYYY-MM-DD.md`
 - `new_features/latest.md`
 
-Each report should include:
+All report content must be in Korean and follow the format rules in `AGENTS.md`.
 
-1. Executive summary
-2. New announcements found
-3. Source list with links
-4. Items checked with no meaningful update
-5. Notes on uncertainty or verification gaps
+## Run Policy
 
-If no new announcement qualifies, keep report format but set `신규 발표 확인 사항` to exactly `해당 없음`.
+- Use the newest report's execution timestamp as the next search window start.
+- Do not use a fixed 24-hour window.
+- Reuse prior reports to avoid duplicate coverage.
+- Let Codex handle report generation only.
+- After Codex finishes, the local cron runner commits and pushes `new_features/*.md`.
 
-## Git
+## Local Cron Entry
 
-Commit and push the daily report changes to the configured GitHub remote when available.
-If the repository is not initialized or no authenticated remote is configured, document the blocker in the report instead of failing silently.
+The repository includes a cron-friendly runner:
 
-## Codex Cloud
+- `scripts/run_daily_report.sh`
 
-This repository is now prepared for Codex cloud tasks.
+It calls Codex non-interactively with web search enabled, updates the report files locally, then commits and pushes `new_features/*.md`. Run logs are written under `logs/cron/`.
 
-- Repo-level instructions live in [`AGENTS.md`](/Users/luna/Documents/Codex/2026-04-17-24-top-tv-sw-hw-7/AGENTS.md).
-- A ready-to-run cloud task prompt lives in [`docs/codex_cloud_daily_tv_monitor.md`](/Users/luna/Documents/Codex/2026-04-17-24-top-tv-sw-hw-7/docs/codex_cloud_daily_tv_monitor.md).
-- The publish helper remains [`scripts/publish_report.sh`](/Users/luna/Documents/Codex/2026-04-17-24-top-tv-sw-hw-7/scripts/publish_report.sh).
+Example crontab entry:
 
-If you run this repo from Codex on the web with a GitHub-connected environment, Codex should pick up `AGENTS.md` automatically and can use the prompt file as the task brief.
+```cron
+46 15 * * * /Users/luna/dev/daily-tv-monitor/scripts/run_daily_report.sh >> /Users/luna/dev/daily-tv-monitor/logs/cron/cron_runner.log 2>&1
+```
+
+## Prompt Source
+
+The non-interactive prompt used by the cron runner lives in:
+
+- `docs/codex_cron_daily_tv_monitor.md`

@@ -57,10 +57,5 @@ Use the title `일간 TV 모니터링 리포트`.
 3. Investigate direct TV announcements and relevant indirect Google/Amazon items within that dynamic window.
 4. Write the report in Korean with explicit source attribution per item.
 5. If there are no qualifying items, write `해당 없음` only under `신규 발표 확인 사항`.
-6. If publishing is requested, run:
-
-```bash
-scripts/publish_report.sh "Daily TV monitor: YYYY-MM-DD"
-```
-
-7. If git/network operations fail, record the failure in the report.
+6. Stop after updating the local markdown files.
+7. Do not commit or push from this repository. Git operations are handled by a separate local process outside this run.
