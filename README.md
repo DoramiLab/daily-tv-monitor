@@ -39,21 +39,29 @@ All report content must be in Korean and follow the format rules in `AGENTS.md`.
 - Do not use a fixed 24-hour window.
 - Reuse prior reports to avoid duplicate coverage.
 - Let Codex handle report generation only.
-- After Codex finishes, the local cron runner commits and pushes `new_features/*.md`.
+- After Codex finishes, the local launchd runner commits and pushes `new_features/*.md`.
 
-## Local Cron Entry
+## Local LaunchAgent
 
-The repository includes a cron-friendly runner:
+The repository includes a launchd-friendly runner:
 
 - `scripts/run_daily_report.sh`
 
-It calls Codex non-interactively with web search enabled, updates the report files locally, then commits and pushes `new_features/*.md`. Run logs are written under `logs/cron/`.
+It calls Codex non-interactively with web search enabled, updates the report files locally, then commits and pushes `new_features/*.md`. Run logs are written under `logs/cron/`, with launchd stdout/stderr under `logs/launchd/`.
 
-Example crontab entry:
+Installed LaunchAgent:
 
-```cron
-46 15 * * * /Users/luna/dev/daily-tv-monitor/scripts/run_daily_report.sh >> /Users/luna/dev/daily-tv-monitor/logs/cron/cron_runner.log 2>&1
+```bash
+~/Library/LaunchAgents/com.doramilab.daily-tv-monitor.plist
 ```
+
+It is scheduled with `StartCalendarInterval` for 07:00 local time. To improve reliability while the Mac is asleep, configure a daily wake event shortly before the job:
+
+```bash
+sudo pmset repeat wakeorpoweron MTWRFSU 06:59:00
+```
+
+LaunchAgents and scheduled wake events do not guarantee execution while a MacBook is fully asleep with the lid closed; behavior depends on power, Power Nap, and clamshell conditions.
 
 ## Prompt Source
 
