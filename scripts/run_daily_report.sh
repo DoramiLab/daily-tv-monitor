@@ -186,6 +186,56 @@ publish_reports() {
   printf '[%s] Publish completed.\n' "$(date '+%Y-%m-%d %H:%M:%S %Z')" | tee -a "${run_log}"
 }
 
+sync_local_checkout_if_only_reports_changed() {
+  local current_branch=""
+  local has_non_report_change=0
+  local line path
+
+  if ! git -C "${repo_root}" rev-parse --is-inside-work-tree >/dev/null 2>&1; then
+    return 0
+  fi
+
+  current_branch="$(git -C "${repo_root}" branch --show-current 2>/dev/null || true)"
+  if [[ "${current_branch}" != "${branch}" ]]; then
+    printf '[%s] Skipping local checkout sync; current branch is %s, expected %s.\n' \
+      "$(date '+%Y-%m-%d %H:%M:%S %Z')" "${current_branch:-detached}" "${branch}" | tee -a "${run_log}"
+    return 0
+  fi
+
+  while IFS= read -r line; do
+    [[ -z "${line}" ]] && continue
+    path="${line:3}"
+    if [[ "${path}" != new_features/* ]]; then
+      has_non_report_change=1
+      break
+    fi
+  done < <(git -C "${repo_root}" status --porcelain=v1 --untracked-files=all)
+
+  if (( has_non_report_change )); then
+    printf '[%s] Skipping local checkout sync; non-report changes are present.\n' \
+      "$(date '+%Y-%m-%d %H:%M:%S %Z')" | tee -a "${run_log}"
+    return 0
+  fi
+
+  if git -C "${repo_root}" diff --quiet && git -C "${repo_root}" diff --cached --quiet &&
+    [[ -z "$(git -C "${repo_root}" ls-files --others --exclude-standard -- new_features)" ]]; then
+    return 0
+  fi
+
+  printf '[%s] Syncing local checkout after report publish.\n' "$(date '+%Y-%m-%d %H:%M:%S %Z')" | tee -a "${run_log}"
+  run_with_retry "local git fetch" git -C "${repo_root}" fetch origin "${branch}" -q
+
+  if ! git -C "${repo_root}" merge-base --is-ancestor HEAD "origin/${branch}"; then
+    printf '[%s] Skipping local checkout sync; local HEAD is not an ancestor of origin/%s.\n' \
+      "$(date '+%Y-%m-%d %H:%M:%S %Z')" "${branch}" | tee -a "${run_log}"
+    return 0
+  fi
+
+  git -C "${repo_root}" clean -fd -- new_features | tee -a "${run_log}"
+  git -C "${repo_root}" reset --hard "origin/${branch}" -q
+  printf '[%s] Local checkout synced to origin/%s.\n' "$(date '+%Y-%m-%d %H:%M:%S %Z')" "${branch}" | tee -a "${run_log}"
+}
+
 if ! mkdir "${lock_dir}" 2>/dev/null; then
   printf '[%s] Another run is already in progress. Exiting.\n' "$(date '+%Y-%m-%d %H:%M:%S %Z')" | tee -a "${run_log}"
   exit 0
@@ -228,5 +278,6 @@ if (( cmd_status != 0 )); then
 fi
 
 publish_reports
+sync_local_checkout_if_only_reports_changed
 
 exit "${cmd_status}"
