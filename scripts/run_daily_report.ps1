@@ -31,7 +31,7 @@ $askpassScript = $null
 
 function Write-RunLog {
     param([string]$Message)
-    $Message | Tee-Object -FilePath $runLog -Append
+    $Message | Tee-Object -FilePath $runLog -Append | Out-Null
 }
 
 function Test-TransientNetworkError {
@@ -180,7 +180,9 @@ function Invoke-CodexExec {
 
     $stdoutTask = $process.StandardOutput.ReadToEndAsync()
     $stderrTask = $process.StandardError.ReadToEndAsync()
-    $process.StandardInput.Write($Prompt)
+    $promptBytes = [System.Text.Encoding]::UTF8.GetBytes($Prompt)
+    $process.StandardInput.BaseStream.Write($promptBytes, 0, $promptBytes.Length)
+    $process.StandardInput.BaseStream.Flush()
     $process.StandardInput.Close()
     $process.WaitForExit()
 
