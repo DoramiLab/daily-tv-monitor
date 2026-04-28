@@ -140,6 +140,62 @@ function Invoke-Git {
     & $gitBin @args
 }
 
+function ConvertTo-CommandLineArg {
+    param([string]$Value)
+    if ($Value -notmatch '[\s"]') {
+        return $Value
+    }
+    return '"' + ($Value -replace '\\(?=\\*")', '$0\' -replace '"', '\"') + '"'
+}
+
+function Invoke-CodexExec {
+    param([string]$Prompt)
+
+    $arguments = @(
+        "--search",
+        "--ask-for-approval", "never",
+        "--sandbox", $codexSandbox,
+        "exec",
+        "-C", $repoRoot,
+        "-m", $model,
+        "--color", "never",
+        "-o", $lastMessage,
+        "-"
+    )
+
+    $psi = [System.Diagnostics.ProcessStartInfo]::new()
+    $psi.FileName = $codexBin
+    $psi.Arguments = ($arguments | ForEach-Object { ConvertTo-CommandLineArg $_ }) -join " "
+    $psi.WorkingDirectory = $repoRoot
+    $psi.UseShellExecute = $false
+    $psi.RedirectStandardInput = $true
+    $psi.RedirectStandardOutput = $true
+    $psi.RedirectStandardError = $true
+    $psi.StandardOutputEncoding = [System.Text.Encoding]::UTF8
+    $psi.StandardErrorEncoding = [System.Text.Encoding]::UTF8
+
+    $process = [System.Diagnostics.Process]::new()
+    $process.StartInfo = $psi
+    [void]$process.Start()
+
+    $stdoutTask = $process.StandardOutput.ReadToEndAsync()
+    $stderrTask = $process.StandardError.ReadToEndAsync()
+    $process.StandardInput.Write($Prompt)
+    $process.StandardInput.Close()
+    $process.WaitForExit()
+
+    $stdout = $stdoutTask.Result
+    $stderr = $stderrTask.Result
+    if ($stdout.Trim().Length -gt 0) {
+        Write-RunLog $stdout.TrimEnd()
+    }
+    if ($stderr.Trim().Length -gt 0) {
+        Write-RunLog $stderr.TrimEnd()
+    }
+
+    return $process.ExitCode
+}
+
 function Publish-Reports {
     $commitMessage = "Daily TV monitor: $(Get-Date -Format yyyy-MM-dd)"
 
@@ -283,9 +339,7 @@ try {
     Write-RunLog "sandbox=$codexSandbox"
 
     $prompt = Get-Content -Path $promptFile -Raw -Encoding UTF8
-    $codexOutput = $prompt | & $codexBin --search --ask-for-approval never --sandbox $codexSandbox exec -C $repoRoot -m $model --color never -o $lastMessage - 2>&1
-    $cmdStatus = $LASTEXITCODE
-    $codexOutput | Tee-Object -FilePath $runLog -Append
+    $cmdStatus = Invoke-CodexExec -Prompt $prompt
 
     Write-RunLog ("[{0}] Finished with exit code {1}." -f (Get-Date -Format "yyyy-MM-dd HH:mm:ss K"), $cmdStatus)
     if ($cmdStatus -ne 0) {
