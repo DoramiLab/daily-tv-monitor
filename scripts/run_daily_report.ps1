@@ -7,7 +7,8 @@ $scriptDir = Split-Path -Parent $MyInvocation.MyCommand.Path
 $repoRoot = Resolve-Path (Join-Path $scriptDir "..")
 $repoRoot = $repoRoot.Path
 
-$codexBin = if ($env:CODEX_BIN) { $env:CODEX_BIN } else { "codex" }
+$defaultCodexBin = Join-Path $env:USERPROFILE ".vscode\extensions\openai.chatgpt-26.422.30944-win32-x64\bin\windows-x86_64\codex.exe"
+$codexBin = if ($env:CODEX_BIN) { $env:CODEX_BIN } elseif (Test-Path $defaultCodexBin) { $defaultCodexBin } else { "codex" }
 $promptFile = if ($env:CODEX_PROMPT_FILE) { $env:CODEX_PROMPT_FILE } else { Join-Path $repoRoot "docs\codex_cron_daily_tv_monitor.md" }
 $model = if ($env:CODEX_MODEL) { $env:CODEX_MODEL } else { "gpt-5.4" }
 $codexSandbox = if ($env:CODEX_SANDBOX_MODE) { $env:CODEX_SANDBOX_MODE } else { "workspace-write" }
@@ -294,6 +295,9 @@ try {
     Publish-Reports
     Sync-LocalCheckoutIfOnlyReportsChanged
     exit 0
+} catch {
+    Write-RunLog ("[{0}] Failed: {1}" -f (Get-Date -Format "yyyy-MM-dd HH:mm:ss K"), $_.Exception.Message)
+    exit 1
 } finally {
     Remove-Item -Path $gitDir, $workDir -Recurse -Force -ErrorAction SilentlyContinue
     if ($askpassScript) {
